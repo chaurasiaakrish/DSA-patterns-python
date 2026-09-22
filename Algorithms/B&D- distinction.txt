@@ -1,0 +1,28 @@
+1. Sliding Window
+
+[       window       ]
+ ↑                   ↑
+left                right
+
+You move left and right around to find something like:
+
+longest window satisfying a condition
+shortest window satisfying a condition
+window with at most K...
+etc.
+The important thing is that the window can be expanded/shrunk intelligently.
+
+2. Kadane's Algorithm 
+
+What is the maximum-sum contiguous subarray?
+[-2, 3, -1, 4, -5]
+Kadane finds:
+[3, -1, 4]
+because its sum is 6.
+
+You don't need prefix sum to solve that.
+
+3. Prefix sum
+
+It gives you a way to represent cumulative information so that differences between two positions give you a subarray sum.
+Prefix at R - Prefix before L = Sum from L to R

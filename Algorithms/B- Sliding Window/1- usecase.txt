@@ -1,0 +1,26 @@
+Array and Strings par hi lagega
+Linked Lists par nahi lagega
+
+Window size se related keywords like sub-array,sub-strings,continous
+Sub sequence is different it is non continous 
+
+What to find ?
+Max/Min
+Longest/Smallest
+Sum/Count/Average
+At most K / At least K / Exactly K
+
+Types of Sliding Window:
+1: Fixed Window: In this after every iteration also the size of the window reamins the same. 
+When it will be fixed: Possible keywords
+size k
+length k
+window of k elements
+
+2: Dynamic window: In this after every iteration also the size of the window does not reamins the same it changes dynamically.
+When it will be dynamic: Possible keywords
+at most k
+at least k
+exactly k
+k distinct
+k unique

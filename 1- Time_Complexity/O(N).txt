@@ -1,0 +1,39 @@
+for i = 0 to N
+    print(i)
+
+In the above algorithm, we are running a loop from 0 to N. 
+In total the loop will run N times. For each iteration of the loop we are doing one operation `print(i).
+The final time complexity will be: N * O(1) => O(N).
+This time the algorithm dependent on a variable N and with that the time complexity also has the value N.
+
+for i = 0 to N
+    print(i)
+    print(i * 2)
+
+O(N)
+Explanation:
+The loop runs N times and in each iteration we are doing 2 operations which have O(1) complexity.
+In total the operations are N * 2 => N * (2 * O(1))
+constants and coefficients are disregarded => O(N)
+
+
+a = 4 + 5
+for i = 0 to N
+    print(a)
+
+Time complexity of first line => O(1) Time complexity of the loop => O(N)
+
+Total time complexity => 2*O(1) + O(N) => O(N)
+Because the biggest factor will slow down an algorithm the most.
+Thus the time complexity of the above algorithm will be: O(N)
+
+for i = 0 to N
+    print(i)
+
+for j = 0 to N
+    print(j)
+
+The loop runs N times and in each iteration we are doing 1 operation.
+The second loop also runs N times and in each iteration we are doing 1 operation.
+In total the operations are N * O(1) + N * O(1) => 2 * O(N)
+After removing constants => O(N)

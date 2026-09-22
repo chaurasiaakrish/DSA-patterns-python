@@ -1,0 +1,13 @@
+1. Subarray Contigous 
+2. To find sum, product, frequency
+3. Also to find the best case max or min
+
+DIFFERENCE BETWEEN SLIDING WINDOW and KADANE's ALGORITHM :-
+Sliding Window don't work for negative elements
+
+Maximum Kadane: A negative running sum is baggage → discard it.
+Minimum Kadane: A positive running sum is baggage → discard it.
+
+Problem                            Reset Condition
+Maximum Subarray Sum               if sum < 0: sum = 0
+Minimum Subarray Sum               if sum > 0: sum = 0

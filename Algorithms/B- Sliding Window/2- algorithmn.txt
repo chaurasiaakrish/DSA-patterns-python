@@ -1,0 +1,4 @@
+Steps to attempt the question of the sliding window :
+
+1: Identify the pattern (sliding window, 2-pointers, etc...)
+2: if it is sliding window then identify the (fixed or dynamic window size)

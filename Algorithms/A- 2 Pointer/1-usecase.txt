@@ -1,0 +1,8 @@
+## When to use: Probalbility
+
+1- In Array/LinkedList
+2- Sorted (if done will help) make sure in the question it didn't asked to return indices else wrong solution
+3- Merge / remove duplicates etc
+4- Detect Cycle
+5 - To find pairs / triplets / quadruples etc.
+6- Is not same as Sliding Window

@@ -1,0 +1,77 @@
+for i = 0 to N
+    for j = 0 to N
+        print(i)
+        print(j)
+
+This is a nested loop. The outer loop runs N times. And for each iteration of the outer loop, the inner loop also runs N times.
+For each iterations of inner loop there are two operations.
+Complexity of line 3 and 4 => O(1) + O(1) => O(1)
+Total complexity of inner loop => N * (complexity of line 3 and 4) => N * O(1) => O(N)
+Total complexity of outer loop => N * (complexity of line 2 - 4) => N * O(N) => O(N * N)
+It can also be represented as O(N ^ 2)
+
+
+for i = 0 to N
+    for j = 0 to N
+        for k = 0 to N
+            print(i)
+Three loops, each run for N times, total complexity is N * N * N * O(1), which is O(N ^ 3)            for i = 0 to N
+    print(i)
+for j = 0 to M
+    print(j)
+
+First loop => O(N)
+Second loop => O(M)
+Total => O(N + M)
+But Rule says that we only care about the largest factor no?
+We cannot ignore either of N or M because both are variable and we don't know which one is bigger or smaller. 
+So we have to keep both of them in the final complexity.
+
+for i = 0 to N
+    print(i)
+for j = 0 to M
+    print(j)
+for i = 0 to N
+    print(i)
+
+Correct Answer:
+
+O(N + M)
+Explanation:
+There are three loops running independently.
+O(N)+O(M)+O(N) => 2*O(N)+O(M) ignoring the constants.
+The time complexity will still be O(N + M) as we can ignore the constant 2.
+
+
+for i = 0 to N
+    for j = 0 to M
+        print(i)
+
+O(N * M)
+Explanation:
+Outer loop runs for N iterations, and for each iteration of the outer loop the inner loop again runs for M iterations.
+Total operations => N * M * O(1) => O(N * M)
+We cannot ignore any of N or M as both are variable.
+
+for i = 1 to n
+	for j = 1 to n / 2
+		print(i + j)
+
+O(n^2)
+Explanation:
+The outer loop runs till n and and the inner loop runs till n / 2. Total operations are thus: (n * n) / 2. 
+But as we can ignore constants when calculating time complexity, the final complexity will be O(n ^ 2).
+
+for i = 1 to n
+	for j = 1 to m
+		print(i + j)
+    for l = 1 to k
+		print(i + l)
+
+Correct Answer:
+
+O(nm+nk)
+Explanation:
+The outer loop is running n times. And the inner loops are running (m + k) times. 
+We need to keep m and k in the final complexity as they are both variables. 
+Thus final time complexity is O(n * (m + k))        

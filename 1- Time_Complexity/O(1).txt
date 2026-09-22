@@ -1,0 +1,33 @@
+a = 4
+print(a)
+
+O(1) 
+
+# Explanation:
+There is no input. Total two operations are performed. Every single operation is denoted as O(1). 
+We have time complexity as O(1) + O(1) = 2 * O(1) 
+But we denote the time complexity of the above algorithm as O(1), ignoring the constant 2.
+Because no matter what the input value is, the number of operations does not grow.
+
+
+# Interview :
+O(1) means:
+
+The number of operations does NOT depend on input size.
+Not:
+“takes 1 step”
+“is very fast”
+
+But:
+constant time, no matter how big the input value is
+Example
+x = 10
+y = 1_000_000_000
+print(x)
+print(y)
+Both take the same number of steps.
+So → O(1).
+
+s = input()      # string of length n
+print("hello")        # O(1)
+print("hello" * n)    # O(n)

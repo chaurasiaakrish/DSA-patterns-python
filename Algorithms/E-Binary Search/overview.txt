@@ -1,0 +1,65 @@
+Binary search is a way of searching by repeatedly cutting the search space in half.
+
+Imagine:
+
+1  2  3  4  5  6  7  8  9  10
+
+You want to find 8.
+
+Instead of checking:
+
+1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
+
+you check the middle:
+
+1  2  3  4  [5]  6  7  8  9  10
+             ↑
+           middle
+
+5 < 8
+
+Therefore, 8 cannot be on the left side.
+
+Throw away:
+
+1 2 3 4 5
+
+Now:
+
+6 7 8 9 10
+
+Middle:
+
+6 7 [8] 9 10
+      ↑
+
+Found it.
+
+Why use Binary Search?
+
+1,000,000 elements
+
+Linear search might need to check:
+
+1,000,000
+
+elements.
+
+Binary search keeps cutting the problem in half:
+
+1,000,000
+   ↓
+500,000
+   ↓
+250,000
+   ↓
+125,000
+   ↓
+...
+
+You only need around 20 comparisons to narrow 1,000,000 elements down to one.
+
+That's why:
+Linear Search → O(n)
+Binary Search → O(log n)
+

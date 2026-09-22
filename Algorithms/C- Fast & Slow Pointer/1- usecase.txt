@@ -1,0 +1,24 @@
+## In the QUESTION TO FIND OR EXISTS OR NOT :-
+
+To find the cycle
+To find the loop 
+To find the repititive behaviour 
+
+
+## WHERE IT CAN BE APPLIED :-
+
+Array, Strings, Single Variable
+LINKED LISTS
+
+
+If the path is STARIGHT then pointers will never meet
+If the path is CiRCULAR then the pointers will meet at some point 
+
+
+while(fast!=null and fast.next!=null): ## don't write in the opposite order else program may crash
+   slow=slow.next
+   fast=fast.next.next
+   if fast==slow:
+    return TRUE  (cycle exists)
+    else:
+     return FALSE

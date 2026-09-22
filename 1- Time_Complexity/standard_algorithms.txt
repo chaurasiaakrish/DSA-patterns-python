@@ -1,0 +1,25 @@
+| Algorithm                   | Time Complexity | Max Value of N Possible |
+| --------------------------- | --------------- | ----------------------- |
+| Single loop till N          | O(N)            | 10⁸                     |
+| Nested loops both till N    | O(N²)           | 10⁴                     |
+| Two loops one by one till N | O(N)            | 10⁸                     |
+
+
+| Algorithm     | Time Complexity | Max Value of N Possible |
+| ------------- | --------------- | ----------------------- |
+| Linear Search | O(N)            | 10⁸                     |
+| Binary Search | O(log N)        | 10¹⁰⁸                   |
+
+
+| Algorithm      | Time Complexity | Max Value of N Possible |
+| -------------- | --------------- | ----------------------- |
+| Bubble Sort    | O(N²)           | 10⁴                     |
+| Insertion Sort | O(N²)           | 10⁴                     |
+| Merge Sort     | O(N log N)      | 10⁷                     |
+
+
+| Operation                                    | Time Complexity |
+| -------------------------------------------- | --------------- |
+| Adding an element at the end of a list       | O(1)            |
+| Adding an element at the start of a list     | O(N)            |
+| Counting occurrences of a number in an array | O(N)            |

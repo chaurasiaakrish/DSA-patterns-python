@@ -1,0 +1,19 @@
+i = 1
+while i <= n:
+    print(i)
+    i *= 2
+
+For n=4
+the iterations will be
+1
+2
+4
+Only 3 iterations.
+
+How about n=16 ?
+1
+2
+4
+8
+16
+Only 5 iterations.    

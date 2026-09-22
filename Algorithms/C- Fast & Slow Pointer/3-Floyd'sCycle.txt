@@ -1,0 +1,25 @@
+PHASE 1
+────────────────────────
+
+slow → 1 step
+fast → 2 steps
+
+          ↓
+
+They meet somewhere INSIDE the cycle.
+
+
+PHASE 2
+────────────────────────
+
+slow → go back to HEAD
+fast → stay at meeting point
+
+          ↓
+
+slow → 1 step
+fast → 1 step
+
+          ↓
+
+They meet at CYCLE START.

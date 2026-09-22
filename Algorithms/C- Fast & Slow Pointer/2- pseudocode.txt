@@ -1,0 +1,17 @@
+slow = head / start / 0th index
+fast = head / start / 0th index
+
+Since this pattern can be used on 
+1. Linkedlist : So start slow and fast from head node
+2. Array : So start from 0th index 
+3. Number : So start slow and fast from that number 
+
+
+while(fast!=null and fast.next!=null):
+    
+    slow = slow.next
+    fast = fast.next.next   
+
+    if slow == fast:
+        return True
+return False   

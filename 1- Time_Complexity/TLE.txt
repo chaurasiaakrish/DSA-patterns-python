@@ -1,0 +1,39 @@
+O(N) = 10^6 (approx.)
+
+the current day computers can run up to 10 ^ 8 operations per second. 
+You can calculate the worst case time complexity of your algorithm and check if the total number of operations 
+are beyond 10 ^ 8. 
+If the operations performed by your algorithm exceeds 10 ^ 8, you will get:
+TLE or Time limit exceeded.
+
+
+sum = 0
+for i = 1 to N
+    sum += i
+print(sum)
+and the constraints on N are:
+1≤N≤100
+
+Will the above algorithm run within 1 second?
+
+The time complexity of the given algorithm is O(N), which is N operations for any input N.
+When N can be at most 100, the total operations will also be 100. 
+This can easily run within a second as the most computers support upto 10 ^ 8 operations or 100 million operations 
+within a second.
+
+
+sum = 0
+for i = 1 to N
+     for j = 1 to N
+          sum += i
+          sum += j
+Can this algorithm run within a second if the constraints on N are:
+1≤N≤10^5 ?
+
+No
+Explanation:
+The time complexity of the given algorithm is O(N ^ 2), which is N * N operations for any input N.
+When N can be at most 10 ^ 5, the total operations will be 10 ^ 5 * 10 ^ 5 => 10 ^ 10.
+10 ^ 10 is higher than 10 ^ 8 which is the number of operation a computer can run within a second. 
+Thus this algorithm will give TLE or Time limit exceeded.
+But this algorithm will easily work if N is less than 10 ^ 4.
