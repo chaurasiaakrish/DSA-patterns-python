@@ -1,0 +1,9 @@
+       ┌───┐
+       │ 3 │ ← top
+       ├───┤
+       │ 2 │
+       ├───┤
+       │ 1 │
+       └───┘
+
+       If you remove one, 3 comes out first.
