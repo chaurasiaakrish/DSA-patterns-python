@@ -36,3 +36,10 @@ Ask yourself:
 If YES → binary search may be applicable.
 
 If NO → binary search probably isn't.
+
+WHEN TO USE        left < = right    and    left < right        :
+
+In the question if we saw STRICTLY greater or lesser than 
+then left<right 
+else:
+use left<=right
