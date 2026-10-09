@@ -1,0 +1,6 @@
+
+Operation	             Time Complexity	                    Description
+Get minimum: heap[0]	    O(1)	                    Access the smallest element
+Insert: heappush()	        O(log n)	                  Insert an element into the heap
+Remove minimum: heappop()	O(log n)	         Remove and return the smallest element
+Build heap: heapify()	    O(n)	                   Convert an existing list into a heap

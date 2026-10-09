@@ -1,0 +1,13 @@
+When should you recognize a heap problem?
+
+Look for questions asking for:
+
+- The Kth largest or smallest element.
+- The top K frequent elements.
+- Repeatedly retrieving the minimum or maximum.
+- Merging K sorted lists.
+- Scheduling tasks by priority.
+- Finding the median from a continuous stream of numbers.
+- Processing the next event with the earliest time.
+
+A heap is particularly useful when you need to repeatedly retrieve the smallest or largest item without sorting all the data every time.

@@ -1,0 +1,60 @@
+A heap is a specialized binary tree that follows a specific ordering rule called the heap property.
+
+There are two main types:
+
+Min Heap
+The parent is always less than or equal to its children.
+- The smallest element is at the root.
+- Example: 1 is the minimum.
+
+       2
+      / \
+     5   3
+    / \
+   8   7
+
+
+Max Heap
+The parent is always greater than or equal to its children.
+- The largest element is at the root.
+- Example: 9 is the maximum.
+
+       9
+      / \
+     5   3
+    / \
+   8   7
+
+
+
+Important: A heap is not a completely sorted tree. It only guarantees the parent-child ordering rule.
+For example, this is a valid min heap:
+       2
+      / \
+     5   3
+    / \
+   8   7
+The root 2 is the smallest, but the other elements aren't necessarily in sorted order.
+
+
+How is a heap stored in Python?
+
+
+Usually, a heap is stored in a list, not by creating tree nodes.
+heap = [2, 5, 3, 8, 7]
+
+
+Its tree representation is:
+       2
+      / \
+     5   3
+    / \
+   8   7
+
+
+For an element at index i (using zero-based indexing):
+- Parent index: (i - 1) // 2
+- Left child index: 2 * i + 1
+- Right child index: 2 * i + 2
+
+You usually don't need to calculate these indices yourself when using Python's heapq.

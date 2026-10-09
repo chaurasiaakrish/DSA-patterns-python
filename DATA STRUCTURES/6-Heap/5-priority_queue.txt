@@ -1,0 +1,33 @@
+In priority queue elements are removed according to their priority, not their insertion order.
+Priority Queue (minimum priority value first)
+10
+2
+7
+First out: 2
+Even though 10 was inserted first, 2 comes out first because it has the highest priority in this example.
+
+
+A heap is a data structure that efficiently maintains the element with the highest priority 
+(for a min heap, the smallest element).
+
+        2
+       / \
+      5   3
+     / \
+    8   7
+
+The smallest value, 2, is at the root. When we remove it, the heap rearranges itself to maintain its property.
+A heap is one of the most common ways to implement a priority queue efficiently.
+
+
+
+         Heap	                                                      Priority Queue
+A concrete data structure	                            An abstract data type (the behavior we want)
+Defines a parent-child ordering property	                    Defines removal by priority
+Usually implemented using an array/list	       Can be implemented using a heap, sorted list, or other structures
+Supports efficient insertion and removal of     Supports adding items and retrieving/removing the highest-priority item
+the minimum/maximum	
+
+
+A priority queue is the abstract data type, while a heap is a data structure used to implement it. 
+So they behave correspondingly, but they aren't technically the same thing.
