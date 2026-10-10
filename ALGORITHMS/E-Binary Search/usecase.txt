@@ -43,3 +43,7 @@ In the question if we saw STRICTLY greater or lesser than
 then left<right 
 else:
 use left<=right
+
+Binary search goal	                                                         Typical condition
+Find an exact target with low = mid + 1 and high = mid - 1	                  while low <= high
+Find a peak/minimum by shrinking boundaries with high = mid	                  while low < high
