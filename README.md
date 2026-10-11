@@ -30,4 +30,4 @@ For each algorithm/pattern, I maintain:
 - Use cases
 - Algorithm explanation
 - Pseudocode
-- Python implementation
+- Python implementations
