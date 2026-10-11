@@ -5,10 +5,18 @@ and solving problems using Python.
 
 ## Topics Covered
 
+# Data Structures
+
 - Time Complexity
-- Lists, Tuples, Sets & Hashmaps
-- Strings
-- Linked Lists
+
+- Lists 
+- LinkedList
+- Stack
+- Hashmaps
+- Heap
+
+# Algorithms
+
 - Two Pointers
 - Sliding Window
 - Fast & Slow Pointers
@@ -23,4 +31,3 @@ For each algorithm/pattern, I maintain:
 - Algorithm explanation
 - Pseudocode
 - Python implementation
-- Problems solved
